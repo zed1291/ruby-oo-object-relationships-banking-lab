@@ -21,7 +21,9 @@ class BankAccount
     end
 
     def valid?
+        # binding.pry
         return true if @status == "open" && @balance > 0
+        sfgnrtbnrnhrt
         false
     end
 
